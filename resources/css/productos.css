@@ -1,0 +1,113 @@
+/*=============================================
+TOP BODY
+=============================================*/
+img{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding:0 !important;
+}
+
+#info-city{
+	font-size:20px;
+	padding-top:5px;
+	padding-bottom:0px;
+	color:blue;
+}
+
+#properties{
+	background-color:#e9e9eb;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+#properties3{
+	background-color:#e9e9eb;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+#properties2{
+	background-color:white;
+}
+.name{
+	font-size:20px;
+	color:blue;
+}
+
+#gridlistmap{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#price{
+	font-size:25px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.grid0{
+	float:left;
+	padding-right: 15px;
+}
+hr{
+	color:black;
+	background-color:black;
+	height: 1px;
+}
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.banner{
+		height:260px;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.banner{
+		height:260px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+	.card-img-top {
+	    /*all: revert;*/
+	    all:none;
+	}
+
+	#properties2,.footerdescripcion{
+		display: none;
+	}
+	.photo2{
+	    visibility: hidden;
+	    /*clear: both;
+	    float: left;
+	    margin: 10px auto 5px 20px;
+	    width: 28%;*/
+	    display: none;
+	  }
+	
+}
+
